@@ -13,7 +13,7 @@
         <property name="driverClass" value="${jdbc.driver}"></property>
         <property name="jdbcUrl" value="${jdbc.url}"></property>
         <property name="user" value="${jdbc.username}"></property>
-        <property name="password" value="${jdbc.password}"></property>
+        <property name="password" value="$1234"></property>
     </bean>
 
     <!--配置Dao-->
